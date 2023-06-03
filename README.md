@@ -61,42 +61,41 @@ Provides a recommended list of passengers to drivers based on various factors su
 
 Matches drivers with selected passengers and verifies their points for payment. Stores approved rides and sends map routes to drivers. Listens to authentication and top-up services for user and point details.
 <div align="center">
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/MatchRide.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
 </div>
 <h3> Payment Service: </h3>
 
 Handles point deduction for completed trips. Generates QR codes for payment and deducts points from passenger accounts. Listens to data from the Match Ride and Top Up services.
 <div align="center">
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/Payment.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
-</div>
 <h3> Top Up Service: </h3>
 
 Allows passengers to top up their points by entering bank details. Listens to data from the Payment Service and publishes updated available points.
 <div align="center">
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/TopUp.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
 </div>
 <h3> Review Service: </h3>
 
 Manages user reviews and ratings. Processes and stores reviews in the database. Listens to data from the Match Ride service and publishes review and ratings for other services.
 <div align="center">
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/Review.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
 </div>
-<h3> Payment Service: </h3>
 
-The Payment Service handles the payment functionality within the RideShare Application. It integrates with payment gateways or third-party payment providers to facilitate secure and convenient payment transactions. The service generates QR codes for payment and deducts points from the passenger's account for completed trips.
-<div align="center">
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
-	<br/>
-</div>
 <h3> Review Service: </h3> 
 
 The Review Service manages the review and rating system within the application. It allows both passengers and drivers to provide feedback and ratings after completing a ride. The service stores and processes the reviews, enabling users to make informed decisions when selecting future rides.
 <div align="center">
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/Review.png" align="center" width="480" height="780" alt="redux" />
+	<br/>
+</div>
+
+<h3> Mobile Client </h3>
+<div align="center">
+<img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/MobileClient.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
 </div>
 
