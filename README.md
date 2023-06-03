@@ -144,7 +144,7 @@ To deploy the RideShare Application, follow these steps:
 
 Ensure you have a Kubernetes cluster up and running to deploy the application. You can use cloud providers like Amazon EKS, Google Kubernetes Engine, or set up a local cluster using tools like Minikube or Docker Desktop.
 
-<h3> Configure the infrastructure: </h3>
+<h3> Configure the infrastructure: </h3> 
 
 Navigate to the "infra" directory and update the Kubernetes configuration files for each service with the appropriate configurations for your environment. This includes specifying resource limits, environment variables, and service dependencies.
 
