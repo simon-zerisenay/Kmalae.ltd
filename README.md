@@ -114,6 +114,17 @@ Get-passenger-review: this route retrieves all the reviews a specific passenger 
 <h3> Match Ride Service: </h3>
 
 Matches drivers with selected passengers and verifies their points for payment. Stores approved rides and sends map routes to drivers. Listens to authentication and top-up services for user and point details.
+
+The service stores the approved rides in the Approved Rides database and publishes it. After that, this service sends a map route to the pick-up point to the driver. The service always listens to data published by Authentication and Top Up services to obtain data about the users (passenger and driver details) and available points of passengers, respectively. The service handles the request made by the driver to set passengers to form a shared trip. It also handles the accept or reject response of each passenger to the request made by the driver. Besides, this service enables both driver and passenger to cancel previously agreed trips in a 5 minute time window starting from the requested initiated time.
+
+
+Routes: This service contains 4 routes (API interfaces) as detailed below:
+Create-match-requests: this route enables the driver to request a passenger in a specific trip (ride and lift requests with mutual destination and time of departure). The meaning of the request is that the driver is interested in giving a lift to the passenger.
+Passenger-confirm-request: this route enables a passenger to either accept or request the request made by a driver as described above.
+Driver-cancel-request: this route enables drivers to cancel the request made above.
+Passenger-cancel-request: this route enables the passenger to cancel the either accept or reject response they gave to the driver request.
+
+
 <div align="center">
 <img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/MatchRide.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
