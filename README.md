@@ -47,14 +47,14 @@ Handles user registration, authentication, and vehicle registration functionalit
 
 Manages ride requests issued by passengers, storing request details and publishing them for other services.
 <div align="center">
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/RideRequest.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
 </div>
 <h3> Recommendation Service: </h3>
 
 Provides a recommended list of passengers to drivers based on various factors such as distance, trip fare, and passenger ratings. Uses data from ride requests, user ratings, and vehicle details.
 <div align="center">
-<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+<img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/Recommendation.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
 </div>
 <h3> Match Ride Service: </h3>
