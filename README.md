@@ -40,9 +40,15 @@ The RideShare Application follows a services-based design, leveraging the micros
 
 Handles user registration, authentication, and vehicle registration functionalities. Provides loosely coupled data for other services to use.
 
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+	<br/>
+
 <h3> Ride Request Service: </h3>
 
 Manages ride requests issued by passengers, storing request details and publishing them for other services.
+
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+	<br/>
 
 <h3> Recommendation Service: </h3>
 
