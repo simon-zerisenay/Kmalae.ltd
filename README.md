@@ -37,7 +37,7 @@ Affordable Transportation for Passengers: The RideShare Application provides pas
 The RideShare Application follows a services-based design, leveraging the microservices architecture. The application consists of seven services that work together to provide the desired functionality:
 
 <h3> Authentication Service: </h3>
-
+The functionality of this service is for user registration and authentication. Users (driver/passenger) can sign up and sign in through this service. This service also handles car registration functionalities, where users can register, update, and delete their vehicles on the system. The service uses collections (database) named User and Vehicle. Once a user or a vehicle is registered on the system, the service publishes the data for other services to use, the concept of loosely coupled. Below is the Hierarchical File structure of Authentication service: 
 Handles user registration, authentication, and vehicle registration functionalities. Provides loosely coupled data for other services to use.
 <div align="center">
 <img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/Authentication.png" align="center" width="480" height="780" alt="redux" />
