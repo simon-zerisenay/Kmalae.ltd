@@ -132,12 +132,23 @@ Passenger-cancel-request: this route enables the passenger to cancel the either 
 <h3> Payment Service: </h3>
 
 Handles point deduction for completed trips. Generates QR codes for payment and deducts points from passenger accounts. Listens to data from the Match Ride and Top Up services.
+
+The Payment service handles the point deduction process after every completed trip. Upon reaching the destination, the driver provides the drop-off location to the service. The service then calculates the trip fare and generates a QR code, where the passenger makes the payment by scanning it. After passengers scan the QR code, the system deducts the points from their account and publishes the remaining points to other services. This service listens to data published by the Match Ride and Top Up services.
+
+Routers directory of Payment service only contains one route which is deduct-points.
+Deduct-points: This router is a principal route which is used by users who pose as passengers and drivers to make transaction/payment. Whenever a user pays another user, it deducts points from his account and adds it to the other user. 
+
+
 <div align="center">
 <img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/Payment.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
 <h3> Top Up Service: </h3>
-
 Allows passengers to top up their points by entering bank details. Listens to data from the Payment Service and publishes updated available points.
+The Top Up service is used by passengers to get points by entering their bank details. The points equal to the amount of money paid in the transaction. This service listens to data published from the Payment Service. It also publishes the updated available points for other services to use.
+
+Routers directory of Top-up service only contains one route which is perform-topup.
+Perform-top-up: Users use this route to top up money from their debit/credit card to our system. The system saves the money in points. The user can then use the points to make any kind of payment in this application.  
+	
 <div align="center">
 <img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/TopUp.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
@@ -153,6 +164,9 @@ Manages user reviews and ratings. Processes and stores reviews in the database. 
 <h3> Review Service: </h3> 
 
 The Review Service manages the review and rating system within the application. It allows both passengers and drivers to provide feedback and ratings after completing a ride. The service stores and processes the reviews, enabling users to make informed decisions when selecting future rides.
+	
+The Review service handles users' reviews and ratings. The service receives reviews and ratings from both passengers and drivers. It then processes and stores it in the Reviews database. This service listens to data published by Match Rides Services. It also publishes the review and ratings under the passenger ID to be used by other services.
+	
 <div align="center">
 <img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/Review.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
