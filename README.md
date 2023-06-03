@@ -126,8 +126,8 @@ Navigate to the "infra" directory and update the Kubernetes configuration files 
 Use the Kubernetes command-line tool (kubectl) to deploy each service to the cluster. Run the following command for each service:  
 Or Use skaffold start:
 		
-											skaffold start
-											  npm start
+								skaffold start
+								  npm start
 <h3> Monitor the deployment: </h3>
 
 Use Kubernetes tools or monitoring solutions to monitor the deployed services and ensure they are running correctly. Check the logs for any errors or issues during the deployment process.
