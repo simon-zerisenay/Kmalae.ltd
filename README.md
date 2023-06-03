@@ -128,8 +128,6 @@ Or Use skaffold start:
 		
 											skaffold start
 											  npm start
-<!--  -->
-								kubectl apply -f service-name.yaml
 <h3> Monitor the deployment: </h3>
 
 Use Kubernetes tools or monitoring solutions to monitor the deployed services and ensure they are running correctly. Check the logs for any errors or issues during the deployment process.
