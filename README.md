@@ -46,31 +46,31 @@ Handles user registration, authentication, and vehicle registration functionalit
 <h3> Ride Request Service: </h3>
 
 Manages ride requests issued by passengers, storing request details and publishing them for other services.
-
+<div align="center">
 <img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
-
+</div>
 <h3> Recommendation Service: </h3>
 
 Provides a recommended list of passengers to drivers based on various factors such as distance, trip fare, and passenger ratings. Uses data from ride requests, user ratings, and vehicle details.
-
+<div align="center">
 <img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
-
+</div>
 <h3> Match Ride Service: </h3>
 
 Matches drivers with selected passengers and verifies their points for payment. Stores approved rides and sends map routes to drivers. Listens to authentication and top-up services for user and point details.
-
+<div align="center">
 <img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
-
+</div>
 <h3> Payment Service: </h3>
 
 Handles point deduction for completed trips. Generates QR codes for payment and deducts points from passenger accounts. Listens to data from the Match Ride and Top Up services.
-
+<div align="center">
 <img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
-
+</div>
 <h3> Top Up Service: </h3>
 
 Allows passengers to top up their points by entering bank details. Listens to data from the Payment Service and publishes updated available points.
