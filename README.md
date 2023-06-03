@@ -82,6 +82,31 @@ Cancel-ride-request: Users who pose as passengers can cancel the ride, they requ
 <h3> Recommendation Service: </h3>
 
 Provides a recommended list of passengers to drivers based on various factors such as distance, trip fare, and passenger ratings. Uses data from ride requests, user ratings, and vehicle details.
+
+This service handles two functionalities which are lift requests and providing mutual ride data. In the lift request functionalities this service enables drivers to create, update and delete a lift request. On the second functionalities, this service computes and retrieves set of rides that has a mutual time of departure and destination with a given lift request.
+
+Routes: this service contain routes that are categorized as lift-request and ride-data.
+<br/>
+Lift-request: this folder contains all routes related to lift requests manipulation.
+<br/>
+Create-lift-request: this route enables drivers to create lift requests by providing necessary details such as starting and destination locations, time of departure and others.
+<br/>
+Update-lift-request: this route enables driver to update any of the created lift requests.
+<br/>
+Get-lift-request: this route retrieves a specific lift request specified by lift request ID from database. The aim of this route is to provide the user with the details of a lift-request during updating it.
+<br/>
+Get-user-lift-request: this route retrieves all lift requests that are created by the specific user. The aim of this route is to provide the driver with a list of all available (not cancelled) lift requests.
+<br/>
+Cancel-lift-request: this route enables the driver to delete created lift requests.
+<br/>
+Ride Data: this folder contains routes that compute and retrieve set of rides that has a mutual destination (as per the driver specified radius) and time of departure (5 minutes before and after the driver’s time of departure)
+<br/>
+Get-mutual-requests: this route takes the driver’s destination and time of departure as parameters and retrieves all ride requests made by passengers that have mutual destination and time of departure as described above. Later, the data retrieved by this route along with the data retrieved by the two below routes is used in the recommendation process at the front end. The recommendation process in the front end consumes the data to provide the driver with a list of recommended passengers to take for every lift request.
+<br/>
+Get-driver-vehicle: this route provides the details of a specific vehicle which is specified by the driver to be used in a specific lift request. The retrieved data of this route is later fed to the frontend recommendation system with details of the a car that is required in the recommendation process such as ( model, brand name, luxury status, fuel consumption and so on.
+<br/>
+Get-passenger-review: this route retrieves all the reviews a specific passenger accumulated on every trip taken.
+<br/>
 <div align="center">
 <img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/Recommendation.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
