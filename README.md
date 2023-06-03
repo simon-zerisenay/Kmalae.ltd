@@ -118,11 +118,11 @@ Matches drivers with selected passengers and verifies their points for payment. 
 The service stores the approved rides in the Approved Rides database and publishes it. After that, this service sends a map route to the pick-up point to the driver. The service always listens to data published by Authentication and Top Up services to obtain data about the users (passenger and driver details) and available points of passengers, respectively. The service handles the request made by the driver to set passengers to form a shared trip. It also handles the accept or reject response of each passenger to the request made by the driver. Besides, this service enables both driver and passenger to cancel previously agreed trips in a 5 minute time window starting from the requested initiated time.
 
 
-Routes: This service contains 4 routes (API interfaces) as detailed below:
-Create-match-requests: this route enables the driver to request a passenger in a specific trip (ride and lift requests with mutual destination and time of departure). The meaning of the request is that the driver is interested in giving a lift to the passenger.
-Passenger-confirm-request: this route enables a passenger to either accept or request the request made by a driver as described above.
-Driver-cancel-request: this route enables drivers to cancel the request made above.
-Passenger-cancel-request: this route enables the passenger to cancel the either accept or reject response they gave to the driver request.
+<b>Routes:</b> This service contains 4 routes (API interfaces) as detailed below:
+<b>Create-match-requests:</b> this route enables the driver to request a passenger in a specific trip (ride and lift requests with mutual destination and time of departure). The meaning of the request is that the driver is interested in giving a lift to the passenger.
+<b>Passenger-confirm-request:</b> this route enables a passenger to either accept or request the request made by a driver as described above.
+<b>Driver-cancel-request:</b> this route enables drivers to cancel the request made above.
+<b>Passenger-cancel-request: </b>this route enables the passenger to cancel the either accept or reject response they gave to the driver request.
 
 
 <div align="center">
