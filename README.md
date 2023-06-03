@@ -39,10 +39,10 @@ The RideShare Application follows a services-based design, leveraging the micros
 <h3> Authentication Service: </h3>
 
 Handles user registration, authentication, and vehicle registration functionalities. Provides loosely coupled data for other services to use.
-
+<div align="center">
 <img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/Authentication.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
-
+</div>
 <h3> Ride Request Service: </h3>
 
 Manages ride requests issued by passengers, storing request details and publishing them for other services.
