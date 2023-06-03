@@ -54,29 +54,50 @@ Manages ride requests issued by passengers, storing request details and publishi
 
 Provides a recommended list of passengers to drivers based on various factors such as distance, trip fare, and passenger ratings. Uses data from ride requests, user ratings, and vehicle details.
 
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+	<br/>
+
 <h3> Match Ride Service: </h3>
 
 Matches drivers with selected passengers and verifies their points for payment. Stores approved rides and sends map routes to drivers. Listens to authentication and top-up services for user and point details.
+
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+	<br/>
 
 <h3> Payment Service: </h3>
 
 Handles point deduction for completed trips. Generates QR codes for payment and deducts points from passenger accounts. Listens to data from the Match Ride and Top Up services.
 
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+	<br/>
+
 <h3> Top Up Service: </h3>
 
 Allows passengers to top up their points by entering bank details. Listens to data from the Payment Service and publishes updated available points.
+
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+	<br/>
 
 <h3> Review Service: </h3>
 
 Manages user reviews and ratings. Processes and stores reviews in the database. Listens to data from the Match Ride service and publishes review and ratings for other services.
 
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+	<br/>
+
 <h3> Payment Service: </h3>
 
 The Payment Service handles the payment functionality within the RideShare Application. It integrates with payment gateways or third-party payment providers to facilitate secure and convenient payment transactions. The service generates QR codes for payment and deducts points from the passenger's account for completed trips.
 
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+	<br/>
+
 <h3> Review Service: </h3> 
 
 The Review Service manages the review and rating system within the application. It allows both passengers and drivers to provide feedback and ratings after completing a ride. The service stores and processes the reviews, enabling users to make informed decisions when selecting future rides.
+
+<img src="https://github.com/simon-zerisenay/Student-Guide-and-Qoura/blob/master/AboutUs.png" align="center" width="480" height="780" alt="redux" />
+	<br/>
 
 
 <h2> Backend Structure Overview: </h2>
