@@ -123,9 +123,12 @@ Navigate to the "infra" directory and update the Kubernetes configuration files 
 
 <h3> Deploy the services: </h3>
 
-Use the Kubernetes command-line tool (kubectl) to deploy each service to the cluster. Run the following command for each service:
-
-
+Use the Kubernetes command-line tool (kubectl) to deploy each service to the cluster. Run the following command for each service:  
+Or Use skaffold start:
+		
+											skaffold start
+											  npm start
+<!--  -->
 								kubectl apply -f service-name.yaml
 <h3> Monitor the deployment: </h3>
 
