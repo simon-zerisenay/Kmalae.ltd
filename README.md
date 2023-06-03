@@ -39,6 +39,24 @@ The RideShare Application follows a services-based design, leveraging the micros
 <h3> Authentication Service: </h3>
 The functionality of this service is for user registration and authentication. Users (driver/passenger) can sign up and sign in through this service. This service also handles car registration functionalities, where users can register, update, and delete their vehicles on the system. The service uses collections (database) named User and Vehicle. Once a user or a vehicle is registered on the system, the service publishes the data for other services to use, the concept of loosely coupled. Below is the Hierarchical File structure of Authentication service: 
 Handles user registration, authentication, and vehicle registration functionalities. Provides loosely coupled data for other services to use.
+<br/>
+<h4> Routers: </h4> This folder contains two directories i.e., users and vehicles 
+<h4> Users: </h4> This directory has routes which are used for user registration and authentication.
+<h4> Current user: </h4> This route can be used to retrieve all the information provided by the user.
+<h4> Get-info: </h4> Users use this page to get all the information they have with us/in our database. 
+<h4> Sign in: </h4> This route serves as a point for users to signin to the application. If they have unexpired cookie, they don’t need to login again. 
+<h4> Sign out: </h4> if the users want to logout from the application this route is activated. This route destroys the cookie so that the users cannot use the application without sign in. 
+<h4> Signup: </h4> This is one of the principal routes which is also known as registration page as it enables users and organisations to independently register and gain access to the system.
+<h4> Update-info: </h4> Users can use this page to update the information they previously provided. 
+<h4> Update-password: </h4> This route is for the users who want to change their password or who are forced to change their password. 
+<h4> Vehicles: </h4> This directory has routes for users to register their vehicles. Users are required to register vehicle if they want to give a ride. 
+<h4> Delete-vehicle: </h4> As it is name indicates, this router is for the users to delete one of the vehicles they have previously registered.
+<h4> Get-user-vehicle: </h4> This route is used to render the list of vehicles owned by the specific user. 
+<h4> Get-vehicle-info: </h4> This route renders the detailed information about a specific vehicle. 
+<h4> Register-vehicle: </h4> This is the principal route in this directory. Users use this route to register their vehicle. Users can register multiple vehicles. 
+<h4> Update-vehicle: </h4> This route is used to update the vehicle information for one of their vehicles.
+<h4> Services: </h4> Password.ts file is used to hash the password by adding salt to make it more secure so that it can’t be easily brute forced by attackers. Moreover, we use it to compare the passwords inputted and stored in our database when the user is signing in. 
+
 <div align="center">
 <img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/Authentication.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
