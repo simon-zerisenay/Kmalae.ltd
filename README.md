@@ -64,6 +64,16 @@ Handles user registration, authentication, and vehicle registration functionalit
 <h3> Ride Request Service: </h3>
 
 Manages ride requests issued by passengers, storing request details and publishing them for other services.
+
+This service handles the ride requests issued by the passenger. The passenger can request a ride by providing the pickup and drop-off location and desired departure time. Then the service stores the request details into the Ride Request Details database and publishes passenger ID and ride request details for other services to use.
+
+Routers directory of ride request service contains five routes. 
+Cancel-ride-request: Users who pose as passengers can cancel the ride, they requested by using this route. 
+Create-ride-request: Users can send a ride request to the drivers initially by creating a ride request. They need to input their pickup point, destination, and time of departure in order to successfully request for a ride.  
+Get-ride-request: Users can see a detailed information about one of their ride requests. 
+Get-user-ride-requests: This route is used by users who are using the application as passengers to see the list of rides requests, they made. 
+Update-ride-request: Users can use this route to update their ride request i.e (pickup point, destination and time of departure)
+
 <div align="center">
 <img src="https://github.com/simon-zerisenay/Kmalae.ltd/blob/main/RideRequest.png" align="center" width="480" height="780" alt="redux" />
 	<br/>
