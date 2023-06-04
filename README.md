@@ -9,6 +9,14 @@ Kmalae.ltd
 </p>
 <h1> Project Name: Kmalae Carpooling Application </h1>
 
+<div align="center">
+
+<a href="https://github.com/kmalae/Kmalae" target="_blank">
+    <img src="https://github.com/simon-zerisenay/simon-zerisenay/blob/main/kmalae.png"   padding="20" height="170" width="200" alt="twitter logo"  />
+  </a>
+	
+</div>
+
 The Kmalae Carpooling Application is a solution aimed at reducing the number of vehicles on the road, thereby reducing carbon dioxide (CO2) emissions and mitigating air pollution. The application provides a platform for people to share rides, allowing passengers to tag along with drivers heading to the same destination. By implementing this solution, the application contributes to a sustainable and greener environment by significantly reducing vehicle-caused carbon emissions.
 
 The application also offers financial benefits to both drivers and passengers. Drivers can save on car-related expenses, particularly with the rising gasoline prices, while passengers can enjoy cheaper transportation compared to other modes of transport like taxis. The expenses are shared among all the riders, making it an economical choice.
