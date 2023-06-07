@@ -48,7 +48,7 @@ Affordable Transportation for Passengers: The RideShare Application provides pas
 
 The RideShare Application follows a services-based design, leveraging the microservices architecture. The application consists of seven services that work together to provide the desired functionality:
 <br/>
-<h2> Video Demo </h2>
+<h2 align="center"> Video Demo </h2>
 <br/>
  <div align="center">
   <a href="https://www.youtube.com/watch?v=your-video-id">
