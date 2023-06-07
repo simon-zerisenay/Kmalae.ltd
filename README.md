@@ -18,8 +18,10 @@ Kmalae.ltd
 </div>
 
 <br/>
-<div style="text-align: center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=f2IfhkPqWFU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ <div align="center">
+  <a href="https://www.youtube.com/watch?v=your-video-id">
+    <img src="https://img.youtube.com/vi/your-video-id/0.jpg" alt="Video Demo">
+  </a>
 </div>
 
 
