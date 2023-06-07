@@ -12,7 +12,7 @@ Kmalae.ltd
 <div align="center">
 
 <a href="https://github.com/kmalae/Kmalae" target="_blank">
-    <img src="https://github.com/simon-zerisenay/simon-zerisenay/blob/main/kmalae.png"   padding="20" height="170" width="200" alt="twitter logo"  />
+    <img src="https://github.com/simon-zerisenay/simon-zerisenay/blob/main/kmalae.png"   padding="20" height="230" width="300" alt="twitter logo"  />
   </a>
 	
 </div>
