@@ -52,7 +52,7 @@ The RideShare Application follows a services-based design, leveraging the micros
 <br/>
  <div align="center">
   <a href="https://www.youtube.com/watch?v=f2IfhkPqWFU">
-    <img src="https://www.youtube.com/watch?v=f2IfhkPqWFU/0.jpg" alt="Video Demo">
+    <img src="videodemo.png" alt="Video Demo">
   </a>
 
 </div>
