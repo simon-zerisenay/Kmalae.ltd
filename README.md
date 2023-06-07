@@ -20,7 +20,7 @@ Kmalae.ltd
 <br/>
  <div align="center">
   <a href="https://www.youtube.com/watch?v=your-video-id">
-    <img src="https://img.youtube.com/vi/your-video-id/0.jpg" alt="Video Demo">
+    <img src="videodemo.jpg" alt="Video Demo">
   </a>
 </div>
 
