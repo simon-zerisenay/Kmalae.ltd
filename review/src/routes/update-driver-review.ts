@@ -14,7 +14,7 @@ import {
 	BadRequestError,
 	NotAuthorizedError,
 	currentUser,
-} from "@kmalae.ltd/library";   
+} from "@kmalae.ltd/library";
 
 // importing event publishers and listeners
 import { ReviewUpdatedPublisher } from "../events/publish/review-Updated-publisher";
